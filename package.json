@@ -1,35 +1,23 @@
 {
-  "name": "react",
+  "name": "awesomeproject",
   "version": "1.0.0",
-  "description": "React example starter project",
-  "keywords": [
-    "react",
-    "starter"
-  ],
-  "main": "src/index.js",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
   "dependencies": {
-    "@emailjs/browser": "^3.10.0",
-    "@fortawesome/fontawesome-svg-core": "^6.2.1",
-    "@fortawesome/free-solid-svg-icons": "^6.2.1",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-router-dom": "6.4.0",
-    "react-scripts": "4.0.0"
+    "@expo/vector-icons": "^13.0.0",
+    "expo": "~47.0.8",
+    "expo-status-bar": "~1.4.2",
+    "react": "18.1.0",
+    "react-native": "0.70.5",
+    "react-native-reanimated": "^2.13.0"
   },
   "devDependencies": {
-    "@babel/runtime": "7.13.8"
+    "@babel/core": "^7.12.9"
   },
-  "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "private": true
 }
